@@ -1,0 +1,442 @@
+#NEXUS
+[written Wed Nov 19 19:20:15 GMT 2025 by Mesquite  version 4.01 (build 1092) at JMQF7J9N30/172.23.69.170]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=117;
+	TAXLABELS
+		Hemicyclaspis_murchisoni Cephalaspis_lyelli Zenaspis_salweyi Benneviaspis_holtedahli Boreaspis_macrorhynchus Norselaspis_glacialis Nectaspis_areolate Procephalaspis_oeselensis Tremataspis_mammillata Waengsjoeaspis_excellens Escuminaspis_laticeps Eugaleaspis_changi Hanyangaspis_guodingshanensis Polybranchiaspis_liaojiaoshanensis Bannhuanaspis_vukhuci Wenshanaspis_zhichangensis Shuyu_zhejiangensis Polybranchiaspid_sp_histological_samples Yunnanolepis_sp Parayunnanolepis_xitunensis Microbrachius_dicki Bothriolepis_sp_Gogo Bothriolepis_canadensis Pterichthyodes_milleri Remigolepis_walkeri Diandongpetalichthys_liaojiaoshanensis Quasipetalichthys_haikouensis Eurycaraspis_incilis Lunaspis_broili Macropetalichthys_rapheidolabis Wuttagoonaspis_fletcheri Cowralepis_mclachlani Gavinaspis_convergens Sigaspis_lepidophora Kujdanowiaspis_podolica Dicksonosteus_arcticus Groenlandaspis_sp_Mt_Howitt Buchanosteus_confertituberculatus Parabuchanosteus_murrumbidgeensis Holonema_westolli Coccosteus_cuspidatus Incisoscutum_ritchiei Eastmanosteus_calliaspis Compagopiscis_croucheri Materpiscis_attenboroughi Austroptyctodus_gardineri Campbellodus_decipiens Rhamphodopsis_threiplandi Brindabellaspis_stensioi Romundina_stellina Jagorina_pandora Gemuendina_stuertzi Entelognathus_primordialis Janusiscus_schultzei Ramirosuarezia_boliviana Acanthodes_bronni Brachyacanthus_scutiger Brochoadmones_milesi Cassidiceps_vermiculatus Cheiracanthus_sp Climatius_reticulatus Culmacanthus_stewarti Euthacanthus_macnicoli Gladiobranchus_probaton Homalacanthus_concinnus Ischnacanthus_gracilis Kathemacanthus_rosulentus Latviacanthus_ventspilsensis Lupopsyrus_pygmaeus Mesacanthus_mitchelli Obtusacanthus_corroconis Parexus_recurvus Poracanthodes_menneri Promesacanthus_eppleri Ptomacanthus_anglicus Diplacanthus_striatus Tetanopsyrus_lindoei_breviacanthias Vernicomacanthus_waynensis Cladodoides_wildungensis Akmonistion_zangerli Cobelodus_braincase Cladoselache_kepleri_fyleri Chondrenchelys_problematica Helodus_simplex Debeerius_ellefseni Doliodus_problematicus Hamiltonichthys_mapesi Onychoselache_traquari Orthacanthus_sp Pucapampella_rodrigae Tamiobatis_vetustus Tristychius_arcuatus Dialipina_salgueiroensis Ligulalepis_toombsi Cheirolepis_canadensis Cheirolepis_trailli Howqualepis_rostridens Mimipiscis_toombsi Moythomasia_durgaringa Kentuckia_deani Osorioichthys_marginis Meemannia_eos Guiyu_oneiros Psarolepis_romeri Achoania_jarvikii Onychodus_jandemarrai Miguashaia_bureaui Styloichthys_changae Diabolepis_speratus Youngolepis_praecursor Powichthys_thorsteinssoni Porolepis_sp Glyptolepis_groenlandica Kenichthys_campbelli Osteolepis_macrolepidotus Gogonasus_andrewsae Eusthenopteron_foordi 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  'Gnathostomes_total';
+	DIMENSIONS  NCHAR=5;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4";
+	CHARSTATELABELS 
+		1 cranial_dermal_skeleton,
+		2 enamel,
+		3 enamel_layer,
+		4 canal_system,
+		5 odontogenic_oesorption_ ; 
+	MATRIX
+	Hemicyclaspis_murchisoni                  10-20
+	Cephalaspis_lyelli                        10-20
+	Zenaspis_salweyi                          10-20
+	Benneviaspis_holtedahli                   10-?0
+	Boreaspis_macrorhynchus                   10-?0
+	Norselaspis_glacialis                     10-?0
+	Nectaspis_areolate                        10-?0
+	Procephalaspis_oeselensis                 10-20
+	Tremataspis_mammillata                    10-20
+	Waengsjoeaspis_excellens                  10-20
+	Escuminaspis_laticeps                     10-10
+	Eugaleaspis_changi                        10--0
+	Hanyangaspis_guodingshanensis             10--0
+	Polybranchiaspis_liaojiaoshanensis        10--0
+	Bannhuanaspis_vukhuci                     10--0
+	Wenshanaspis_zhichangensis                10--0
+	Shuyu_zhejiangensis                       10--0
+	Polybranchiaspid_sp_histological_samples  10--0
+	Yunnanolepis_sp                           10-?0
+	Parayunnanolepis_xitunensis               10-?0
+	Microbrachius_dicki                       ?????
+	Bothriolepis_sp_Gogo                      0----
+	Bothriolepis_canadensis                   0----
+	Pterichthyodes_milleri                    10-?0
+	Remigolepis_walkeri                       10-?0
+	Diandongpetalichthys_liaojiaoshanensis    ?????
+	Quasipetalichthys_haikouensis             ?????
+	Eurycaraspis_incilis                      ?????
+	Lunaspis_broili                           10-00
+	Macropetalichthys_rapheidolabis           ?????
+	Wuttagoonaspis_fletcheri                  10-?0
+	Cowralepis_mclachlani                     0----
+	Gavinaspis_convergens                     ?????
+	Sigaspis_lepidophora                      10-?0
+	Kujdanowiaspis_podolica                   ?????
+	Dicksonosteus_arcticus                    ?????
+	Groenlandaspis_sp_Mt_Howitt               ?????
+	Buchanosteus_confertituberculatus         10-00
+	Parabuchanosteus_murrumbidgeensis         10-00
+	Holonema_westolli                         10-00
+	Coccosteus_cuspidatus                     10-?0
+	Incisoscutum_ritchiei                     0----
+	Eastmanosteus_calliaspis                  ?????
+	Compagopiscis_croucheri                   10-?0
+	Materpiscis_attenboroughi                 ?????
+	Austroptyctodus_gardineri                 10-00
+	Campbellodus_decipiens                    10-00
+	Rhamphodopsis_threiplandi                 ?????
+	Brindabellaspis_stensioi                  10-00
+	Romundina_stellina                        10-00
+	Jagorina_pandora                          10-?0
+	Gemuendina_stuertzi                       10-?0
+	Entelognathus_primordialis                10-00
+	Janusiscus_schultzei                      ?????
+	Ramirosuarezia_boliviana                  ?????
+	Acanthodes_bronni                         10-00
+	Brachyacanthus_scutiger                   10-00
+	Brochoadmones_milesi                      10-00
+	Cassidiceps_vermiculatus                  10-00
+	Cheiracanthus_sp                          10-00
+	Climatius_reticulatus                     10-00
+	Culmacanthus_stewarti                     10-00
+	Euthacanthus_macnicoli                    10-00
+	Gladiobranchus_probaton                   10-00
+	Homalacanthus_concinnus                   10-00
+	Ischnacanthus_gracilis                    10-00
+	Kathemacanthus_rosulentus                 10-00
+	Latviacanthus_ventspilsensis              10-00
+	Lupopsyrus_pygmaeus                       10-00
+	Mesacanthus_mitchelli                     10-00
+	Obtusacanthus_corroconis                  10-00
+	Parexus_recurvus                          10-00
+	Poracanthodes_menneri                     10-20
+	Promesacanthus_eppleri                    10-00
+	Ptomacanthus_anglicus                     10-00
+	Diplacanthus_striatus                     10-00
+	Tetanopsyrus_lindoei_breviacanthias       10-00
+	Vernicomacanthus_waynensis                10-00
+	Cladodoides_wildungensis                  ?????
+	Akmonistion_zangerli                      10-00
+	Cobelodus_braincase                       ?????
+	Cladoselache_kepleri_fyleri               ?????
+	Chondrenchelys_problematica               10-00
+	Helodus_simplex                           10-00
+	Debeerius_ellefseni                       10-00
+	Doliodus_problematicus                    10-00
+	Hamiltonichthys_mapesi                    10-00
+	Onychoselache_traquari                    10-00
+	Orthacanthus_sp                           10-00
+	Pucapampella_rodrigae                     ?????
+	Tamiobatis_vetustus                       10-00
+	Tristychius_arcuatus                      0----
+	Dialipina_salgueiroensis                  1110?
+	Ligulalepis_toombsi                       11111
+	Cheirolepis_canadensis                    11101
+	Cheirolepis_trailli                       11101
+	Howqualepis_rostridens                    111??
+	Mimipiscis_toombsi                        11101
+	Moythomasia_durgaringa                    11101
+	Kentuckia_deani                           ?????
+	Osorioichthys_marginis                    ?????
+	Meemannia_eos                             1????
+	Guiyu_oneiros                             111??
+	Psarolepis_romeri                         11111
+	Achoania_jarvikii                         ?????
+	Onychodus_jandemarrai                     11111
+	Miguashaia_bureaui                        11111
+	Styloichthys_changae                      11021
+	Diabolepis_speratus                       ?????
+	Youngolepis_praecursor                    ?????
+	Powichthys_thorsteinssoni                 ?????
+	Porolepis_sp                              11121
+	Glyptolepis_groenlandica                  1????
+	Kenichthys_campbelli                      ?????
+	Osteolepis_macrolepidotus                 1102?
+	Gogonasus_andrewsae                       1102?
+	Eusthenopteron_foordi                     10-?0
+
+;
+
+END;
+BEGIN LABELS;
+	TAXAGROUPLABEL Both_Included COLOR = (RGB 1.0 0.63529412 0.78039216) ;
+	TAXAGROUPLABEL Only_in_Long2014 COLOR = (RGB 0.83529412 0.86666667 1.0) ;
+	TAXAGROUPLABEL GFB2015 COLOR = (RGB 0.90196078 1.0 0.83529412) ;
+	TAXAGROUPLABEL Added COLOR = (RGB 0.92156863 1.0 0.8) ;
+	TAXAGROUPLABEL BothIncluded COLOR = (RGB 0.96078431 0.8 1.0) ;
+	TAXAGROUPLABEL Excluded_by_Long2014 COLOR = (RGB 0.2 0.52156863 1.0) ;
+
+	CHARGROUPLABEL a_histology COLOR = (RGB 1.0 0.10196078 0.10196078) ;
+	CHARGROUPLABEL b_braincase COLOR = (RGB 0.58431373 0.4627451 0.76862745) ;
+	CHARGROUPLABEL d_dermal_skull COLOR = (RGB 0.30196078 0.58039216 1.0) ;
+	CHARGROUPLABEL g_paired_fins_and_girdles COLOR = (RGB 1.0 0.8745098 0.36862745) ;
+	CHARGROUPLABEL h_postcranial COLOR = (RGB 1.0 0.6 0.83921569) ;
+	CHARGROUPLABEL i_scales COLOR = (RGB 0.43529412 1.0 1.0) ;
+	CHARGROUPLABEL e_sensory_lines COLOR = (RGB 1.0 1.0 0.63529412) ;
+	CHARGROUPLABEL c_visceral_skeleton COLOR = (RGB 0.16078431 0.63529412 0.04313725) ;
+	CHARGROUPLABEL f_jaws COLOR = (RGB 1.0 0.61960784 0.36862745) ;
+
+
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS;
+	EXSET * UNTITLED  = ;
+
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1763580015100;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8464539481286941188;
+			tell It;
+				setDefaultOrder  2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20 103 86 107 25 25 91 109 114 110 53 75 77 115 44 123 131 71 48 116 29 117 116 43 65 119 118 112 23 30 93 27 95 67 55 51 68 94 21 26 28 31 32 41 45 54 56 63 66 69 72 75 77 80 85 86 88 91 49 98 102 39 22 42 40 34 62 46 50 61 82 83 92 97 99 47 73 33 106 64 78 79 70 123 126 59 89 118 81 127 96 120 103 128 87 57 124 122 58 53;
+				attachments <null>;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 2945879638180203702;
+			tell It;
+				setDefaultOrder  9 10 5 6 7;
+				attachments <null>;
+			endTell;
+			mqVersion 401;
+			checksumv 0 3 1966026584 null  getNumChars 5 numChars 5 getNumTaxa 117 numTaxa 117   short true   bits 7   states 7   sumSquaresStatesOnly 885.0 sumSquares 885.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setUniqueID 0199e344725b56;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1920 913;
+			setLocation 0 25;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaDNA.InterpretFastaDNA;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaDNAByOTUID.InterpretFastaDNAByOTUID;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaProtein.InterpretFastaProtein;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.chromaseq.ExportFastaDNAForGenBankTbl2Asn.ExportFastaDNAForGenBankTbl2Asn;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.chromaseq.ExportFastaDNAForSequin.ExportFastaDNAForSequin;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #8464539481286941188 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #8464539481286941188;
+				getWindow;
+				tell It;
+					setTargetValue '';
+					setWandColumn -1;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					setUniqueID 0199e34472a157;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1820 841;
+					setLocation 0 25;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.arrow;
+					endTell;
+					reviewColumnWidths;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Black;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #2945879638180203702 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 259;
+					endTell;
+					setUniqueID 0199e34472fd58;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1820 841;
+					setLocation 0 25;
+					setFont SanSerif;
+					setFontSize 12;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Wood;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.NoColor.NoColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					contrastCellText on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal off;
+					setDiagonalHeight 80;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.DefaultCellColor.DefaultCellColor;
+				tell It;
+					getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+					tell It;
+						setStateLimit 9;
+						toggleUniformMaximum on;
+					endTell;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						getTable;
+						tell It;
+							rowNamesWidth 581;
+						endTell;
+						setUniqueID 0199e344734b59;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 1820 841;
+						setLocation 0 25;
+						setFont SanSerif;
+						setFontSize 12;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.arrow;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel on;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		getWindow;
+		tell It;
+			setResourcesState false false 100;
+			findWindow 0199e34472fd58;
+			tell It;
+				setAsFront;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

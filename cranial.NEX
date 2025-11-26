@@ -1,0 +1,481 @@
+#NEXUS
+[written Thu Nov 20 11:06:14 GMT 2025 by Mesquite  version 4.01 (build 1092) at JMQF7J9N30/172.23.69.170]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=103;
+	TAXLABELS
+		Galeaspida Osteostraci Acanthodes Akmonistion Austroptyctodus Bothriolepis Brachyacanthus Brindabellaspis Brochoadmones Buchanosteus Campbellodus Cassidiceps Cheiracanthus Cheirolepis Chondrenchelys Cladodoides Cladoselache Climatius Cobelodus Coccosteus Cowralepis Culmacanthus Debeerius Dialipina Dicksonosteus Diplacanthus Doliodus Entelognathus Eusthenopteron Euthacanthus Gladiobranchus Gogonasus Guiyu Hamiltonichthys Homalacanthus Howqualepis Incisoscutum Ischnacanthus Kathemacanthus Ligulalepis Lunaspis Lupopsyrus Macropetalichthys Mesacanthus Mimipiscis Moythomasia Obtusacanthus Onychodus Onychoselache Orthacanthus Parexus Poracanthodes Porolepis Promesacanthus Psarolepis Pterichthyodes Ptomacanthus Pucapampella Rhamphodopsis Romundina Styloichthys Tamiobatis Tetanopsyrus Tristychius Parayunnanolepis Sinolepis Quasipetalichthys Diandongpetalichthys Gavinaspis Sigaspis Eurycaraspis Gemuendina Glyptolepis Gyracanthides Helodus Jagorina Janusiscus Kentuckia Kujdanowiaspis Latviacanthus Ramirosuarezia Yunnanolepis Vernicomacanthus Youngolepis Microbrachius Remigolepis Materpiscis Wuttagoonaspis Groenlandaspis Holonema Parabuchanosteus Compagopiscis Eastmanosteus Achoania Rhadinacanthus Diabolepis Osteolepis Osorioichthys Kenichthys Lophosteus Meemannia Miguashaia Powichthys 
+	;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  'Matrix in file "Dupret_SI_data_matrix_NDE_revision.nex"';
+	DIMENSIONS  NCHAR=5;
+	FORMAT DATATYPE = STANDARD RESPECTCASE GAP = - MISSING = ? SYMBOLS = "  0 1 2 3 4";
+	CHARSTATELABELS 
+		1 cranial_dermal_skeleton /  absent present,
+		2 enamel /  absent present,
+		3 enamel_layer /  single_layer multiple_layer,
+		4 vascular_canal /  absent present,
+		5 odontogenic_resorption /  absent present ; 
+	MATRIX
+	Galeaspida            10--0
+	Osteostraci           10-20
+	Acanthodes            10-00
+	Akmonistion           10-00
+	Austroptyctodus       10-?0
+	Bothriolepis          10--0
+	Brachyacanthus        10-?0
+	Brindabellaspis       10-?0
+	Brochoadmones         10-?0
+	Buchanosteus          10-?0
+	Campbellodus          10-?0
+	Cassidiceps           10-?0
+	Cheiracanthus         10-00
+	Cheirolepis           11111
+	Chondrenchelys        10-00
+	Cladodoides           10-00
+	Cladoselache          10-00
+	Climatius             10-00
+	Cobelodus             10-00
+	Coccosteus            10-?0
+	Cowralepis            10-?0
+	Culmacanthus          10-00
+	Debeerius             10-00
+	Dialipina             1????
+	Dicksonosteus         10-?0
+	Diplacanthus          10-00
+	Doliodus              10-00
+	Entelognathus         10-00
+	Eusthenopteron        1????
+	Euthacanthus          10-00
+	Gladiobranchus        10-00
+	Gogonasus             1????
+	Guiyu                 111??
+	Hamiltonichthys       10-00
+	Homalacanthus         10-00
+	Howqualepis           1????
+	Incisoscutum          10--0
+	Ischnacanthus         10-00
+	Kathemacanthus        10-00
+	Ligulalepis           11111
+	Lunaspis              10--0
+	Lupopsyrus            10-00
+	Macropetalichthys     10-00
+	Mesacanthus           10-00
+	Mimipiscis            1????
+	Moythomasia           11111
+	Obtusacanthus         10-00
+	Onychodus             1111?
+	Onychoselache         10-00
+	Orthacanthus          10-00
+	Parexus               10-00
+	Poracanthodes         10-00
+	Porolepis             11021
+	Promesacanthus        10-00
+	Psarolepis            11111
+	Pterichthyodes        10-?0
+	Ptomacanthus          0----
+	Pucapampella          10-00
+	Rhamphodopsis         10-?0
+	Romundina             10-00
+	Styloichthys          11021
+	Tamiobatis            10-00
+	Tetanopsyrus          10-00
+	Tristychius           10-00
+	Parayunnanolepis      10-?0
+	Sinolepis             10-?0
+	Quasipetalichthys     10-?0
+	Diandongpetalichthys  10-?0
+	Gavinaspis            10-?0
+	Sigaspis              10-?0
+	Eurycaraspis          10-?0
+	Gemuendina            10-?0
+	Glyptolepis           1????
+	Gyracanthides         10-00
+	Helodus               10-00
+	Jagorina              10-?0
+	Janusiscus            10-00
+	Kentuckia             1????
+	Kujdanowiaspis        10-?0
+	Latviacanthus         10-00
+	Ramirosuarezia        10-00
+	Yunnanolepis          10-00
+	Vernicomacanthus      10-00
+	Youngolepis           1102?
+	Microbrachius         10-?0
+	Remigolepis           10-?0
+	Materpiscis           10-?0
+	Wuttagoonaspis        10-?0
+	Groenlandaspis        10-?0
+	Holonema              10--0
+	Parabuchanosteus      10-?0
+	Compagopiscis         10--0
+	Eastmanosteus         10-?0
+	Achoania              11???
+	Rhadinacanthus        10-00
+	Diabolepis            1102?
+	Osteolepis            1????
+	Osorioichthys         1????
+	Kenichthys            11???
+	Lophosteus            10-00
+	Meemannia             1111?
+	Miguashaia            1????
+	Powichthys            1102?
+
+;
+
+END;
+BEGIN NOTES;
+
+	SUT   TAXON = 3 NAME = color INTEGER = 0;
+	SUT   TAXON = 5 NAME = color INTEGER = 0;
+	SUT   TAXON = 6 NAME = color INTEGER = 0;
+	SUT   TAXON = 8 NAME = color INTEGER = 0;
+	SUT   TAXON = 10 NAME = color INTEGER = 0;
+	SUT   TAXON = 11 NAME = color INTEGER = 0;
+	SUT   TAXON = 20 NAME = color INTEGER = 0;
+	SUT   TAXON = 21 NAME = color INTEGER = 0;
+	SUT   TAXON = 25 NAME = color INTEGER = 0;
+	SUT   TAXON = 28 NAME = color INTEGER = 0;
+	SUT   TAXON = 37 NAME = color INTEGER = 0;
+	SUT   TAXON = 41 NAME = color INTEGER = 0;
+	SUT   TAXON = 43 NAME = color INTEGER = 0;
+	SUT   TAXON = 56 NAME = color INTEGER = 0;
+	SUT   TAXON = 59 NAME = color INTEGER = 0;
+	SUT   TAXON = 60 NAME = color INTEGER = 0;
+	SUT   TAXON = 65 NAME = color INTEGER = 0;
+	SUT   TAXON = 66 NAME = color INTEGER = 0;
+	SUT   TAXON = 67 NAME = color INTEGER = 0;
+	SUT   TAXON = 68 NAME = color INTEGER = 0;
+	SUT   TAXON = 70 NAME = color INTEGER = 0;
+	SUT   TAXON = 71 NAME = color INTEGER = 0;
+	SUT   TAXON = 72 NAME = color INTEGER = 0;
+	SUT   TAXON = 73 NAME = color INTEGER = 0;
+	SUT   TAXON = 74 NAME = color INTEGER = 0;
+	SUT   TAXON = 75 NAME = color INTEGER = 0;
+	SUT   TAXON = 76 NAME = color INTEGER = 0;
+	SUT   TAXON = 77 NAME = color INTEGER = 0;
+	SUT   TAXON = 78 NAME = color INTEGER = 0;
+	SUT   TAXON = 79 NAME = color INTEGER = 0;
+	SUT   TAXON = 80 NAME = color INTEGER = 0;
+	SUT   TAXON = 81 NAME = color INTEGER = 0;
+	SUT   TAXON = 82 NAME = color INTEGER = 0;
+	SUT   TAXON = 85 NAME = color INTEGER = 0;
+	SUT   TAXON = 86 NAME = color INTEGER = 0;
+	SUT   TAXON = 87 NAME = color INTEGER = 0;
+	SUT   TAXON = 88 NAME = color INTEGER = 0;
+	SUT   TAXON = 89 NAME = color INTEGER = 0;
+	SUT   TAXON = 90 NAME = color INTEGER = 0;
+	SUT   TAXON = 91 NAME = color INTEGER = 0;
+	SUT   TAXON = 92 NAME = color INTEGER = 0;
+	SUT   TAXON = 93 NAME = color INTEGER = 0;
+
+END;
+
+BEGIN LABELS;
+	TAXAGROUPLABEL Both_Included COLOR = (RGB 1.0 0.63529412 0.78039216) ;
+	TAXAGROUPLABEL Only_in_Long2014 COLOR = (RGB 0.83529412 0.86666667 1.0) ;
+	TAXAGROUPLABEL GFB2015 COLOR = (RGB 0.90196078 1.0 0.83529412) ;
+	TAXAGROUPLABEL Added COLOR = (RGB 0.92156863 1.0 0.8) ;
+	TAXAGROUPLABEL BothIncluded COLOR = (RGB 0.96078431 0.8 1.0) ;
+	TAXAGROUPLABEL Excluded_by_Long2014 COLOR = (RGB 0.2 0.52156863 1.0) ;
+
+	CHARGROUPLABEL GFB2015_added COLOR = (RGB 0.92156863 0.6 1.0) ;
+	CHARGROUPLABEL 'Matrix in file "Dupret_SI_data_matrix_NDE_revision.nex"';
+	CHARGROUPLABEL NotIncludedByGFB2015 COLOR = (RGB 0.53333333 0.53333333 0.53333333) ;
+	CHARGROUPLABEL split_into_two_in_GFB2015 COLOR = (RGB 1.0 0.73333333 0.83921569) ;
+	CHARGROUPLABEL Included_by_GFB2015 COLOR = (RGB 0.8 1.0 0.8) ;
+	CHARGROUPLABEL DeletedHere COLOR = (RGB 0.83529412 0.96862745 1.0) ;
+	CHARGROUPLABEL Newaddedfrom_split COLOR = (RGB 1.0 0.92156863 0.8) ;
+	CHARGROUPLABEL Gelis_tobe_deleted COLOR = (RGB 1.0 1.0 0.50196078) ;
+	CHARGROUPLABEL To_be_deleted_when_combined COLOR = (RGB 1.0 0.76078431 0.70196078) ;
+	CHARGROUPLABEL Newly_added_for_Qilinyu COLOR = (RGB 1.0 0.03529412 0.41960784) ;
+
+
+END;
+
+BEGIN SETS;
+	TAXPARTITION * UNTITLED  =  Both_Included :  1- 64, Excluded_by_Long2014 :  65- 70, GFB2015 :  71- 82, Only_in_Long2014 :  83- 103;
+
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS DEFTYPE = UNORD POLYTCOUNT = MINSTEPS;
+	EXSET * UNTITLED  = ;
+
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1763636775648;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8464539481286941188;
+			tell It;
+				setDefaultOrder  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 29 30 32 34 35 37 39 40 41 42 45 49 50 51 52 53 54 55 56 57 58 59 61 62 63 64 65 66 67 68 69 71 72 73 74 75 60 80 83 85 95 122 28 31 33 36 38 43 44 46 47 48 70 77 78 79 81 82 84 86 87 88 89 90 91 92 93 94 96 97 98 99 100 101 102;
+				attachments <null>;
+			endTell;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 2945879638180203702;
+			mqVersion 401;
+			checksumv 0 3 2204735905 null  getNumChars 5 numChars 5 getNumTaxa 103 numTaxa 103   short true   bits 7   states 7   sumSquaresStatesOnly 840.0 sumSquares 840.0 longCompressibleToShort false usingShortMatrix true   NumFiles 1 NumMatrices 1;
+			mqVersion;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setUniqueID 0199e2fac7eb28;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 812 812;
+			setLocation 1025 54;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaDNA.InterpretFastaDNA;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaDNAByOTUID.InterpretFastaDNAByOTUID;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.io.InterpretFastaProtein.InterpretFastaProtein;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.chromaseq.ExportFastaDNAForGenBankTbl2Asn.ExportFastaDNAForGenBankTbl2Asn;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.chromaseq.ExportFastaDNAForSequin.ExportFastaDNAForSequin;
+		tell It;
+			includeGaps false;
+			simplifyTaxonName false;
+			convertMultStateToMissing true;
+			writeExcludedCharacters true;
+			uniqueSuffix '';
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #8464539481286941188 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #8464539481286941188;
+				getWindow;
+				tell It;
+					setTargetValue '';
+					setWandColumn -1;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					setUniqueID 0199e2fac81929;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 712 740;
+					setLocation 1025 54;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.lists.TaxonList.TaxonListWindow.sort;
+					endTell;
+					reviewColumnWidths;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Black;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #2945879638180203702 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					getTable;
+					tell It;
+						rowNamesWidth 248;
+					endTell;
+					setUniqueID 0199e2fac85130;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 712 740;
+					setLocation 1025 54;
+					setFont SanSerif;
+					setFontSize 18;
+					getToolPalette;
+					tell It;
+						setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					endTell;
+					setActive;
+					setTool mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindow.ibeam;
+					colorCells  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.NoColor.NoColor;
+					colorColumnNames  #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames off;
+					toggleShowTaxonNames on;
+					toggleTight off;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					contrastCellText on;
+					toggleReduceCellBorders off;
+					toggleAutoWCharNames on;
+					toggleAutoTaxonNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					toggleBirdsEye off;
+					toggleColorOnlyTaxonNames off;
+					toggleShowPaleGrid off;
+					toggleShowPaleCellColors off;
+					toggleShowPaleExcluded off;
+					togglePaleInapplicable on;
+					togglePaleMissing off;
+					toggleShowBoldCellText off;
+					toggleAllowAutosize on;
+					toggleColorsPanel off;
+					toggleDiagonal on;
+					setDiagonalHeight 113;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getWindow;
+				tell It;
+					forceAutosize;
+				endTell;
+				getEmployee #mesquite.charMatrices.AlterData.AlterData;
+				tell It;
+					toggleBySubmenus off;
+				endTell;
+				getEmployee #mesquite.charMatrices.DefaultCellColor.DefaultCellColor;
+				tell It;
+					getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+					tell It;
+						setStateLimit 9;
+						toggleUniformMaximum on;
+					endTell;
+				endTell;
+				getEmployee #mesquite.charMatrices.ColorByState.ColorByState;
+				tell It;
+					setStateLimit 9;
+					toggleUniformMaximum on;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesEditor.StateNamesEditor;
+				tell It;
+					makeWindow;
+					tell It;
+						getTable;
+						tell It;
+							rowNamesWidth 281;
+						endTell;
+						setUniqueID 0199e2fac89d31;
+						setExplanationSize 30;
+						setAnnotationSize 20;
+						setFontIncAnnot 0;
+						setFontIncExp 0;
+						setSize 712 740;
+						setLocation 1025 54;
+						setFont SanSerif;
+						setFontSize 10;
+						getToolPalette;
+						tell It;
+							setTool mesquite.categ.StateNamesEditor.StateNamesWindow.ibeam;
+						endTell;
+						rowsAreCharacters on;
+						toggleConstrainChar on;
+						toggleConstrainCharNum 3;
+						togglePanel off;
+						toggleSummaryPanel off;
+					endTell;
+					showWindow;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.charMatrices.SelSummaryStrip.SelSummaryStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.categ.SmallStateNamesEditor.SmallStateNamesEditor;
+				tell It;
+					panelOpen true;
+				endTell;
+			endTell;
+		endTell;
+		getWindow;
+		tell It;
+			setResourcesState false false 100;
+			findWindow 0199e2fac85130;
+			tell It;
+				setAsFront;
+			endTell;
+			desuppress;
+		endTell;
+		endTell;
+end;
+
+

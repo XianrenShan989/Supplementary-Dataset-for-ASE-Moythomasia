@@ -1,0 +1,247 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=117;
+		Taxlabels
+			Hemicyclaspis_murchisoni 
+			Cephalaspis_lyelli 
+			Zenaspis_salweyi 
+			Benneviaspis_holtedahli 
+			Boreaspis_macrorhynchus 
+			Norselaspis_glacialis 
+			Nectaspis_areolate 
+			Procephalaspis_oeselensis 
+			Tremataspis_mammillata 
+			Waengsjoeaspis_excellens 
+			Escuminaspis_laticeps 
+			Eugaleaspis_changi 
+			Hanyangaspis_guodingshanensis 
+			Polybranchiaspis_liaojiaoshanensis 
+			Bannhuanaspis_vukhuci 
+			Wenshanaspis_zhichangensis 
+			Shuyu_zhejiangensis 
+			Polybranchiaspid_sp_histological_samples 
+			Yunnanolepis_sp 
+			Parayunnanolepis_xitunensis 
+			Microbrachius_dicki 
+			Bothriolepis_sp_Gogo 
+			Bothriolepis_canadensis 
+			Pterichthyodes_milleri 
+			Remigolepis_walkeri 
+			Diandongpetalichthys_liaojiaoshanensis 
+			Quasipetalichthys_haikouensis 
+			Eurycaraspis_incilis 
+			Lunaspis_broili 
+			Macropetalichthys_rapheidolabis 
+			Wuttagoonaspis_fletcheri 
+			Cowralepis_mclachlani 
+			Gavinaspis_convergens 
+			Sigaspis_lepidophora 
+			Kujdanowiaspis_podolica 
+			Dicksonosteus_arcticus 
+			Groenlandaspis_sp_Mt_Howitt 
+			Buchanosteus_confertituberculatus 
+			Parabuchanosteus_murrumbidgeensis 
+			Holonema_westolli 
+			Coccosteus_cuspidatus 
+			Incisoscutum_ritchiei 
+			Eastmanosteus_calliaspis 
+			Compagopiscis_croucheri 
+			Materpiscis_attenboroughi 
+			Austroptyctodus_gardineri 
+			Campbellodus_decipiens 
+			Rhamphodopsis_threiplandi 
+			Brindabellaspis_stensioi 
+			Romundina_stellina 
+			Jagorina_pandora 
+			Gemuendina_stuertzi 
+			Entelognathus_primordialis 
+			Janusiscus_schultzei 
+			Ramirosuarezia_boliviana 
+			Acanthodes_bronni 
+			Brachyacanthus_scutiger 
+			Brochoadmones_milesi 
+			Cassidiceps_vermiculatus 
+			Cheiracanthus_sp 
+			Climatius_reticulatus 
+			Culmacanthus_stewarti 
+			Euthacanthus_macnicoli 
+			Gladiobranchus_probaton 
+			Homalacanthus_concinnus 
+			Ischnacanthus_gracilis 
+			Kathemacanthus_rosulentus 
+			Latviacanthus_ventspilsensis 
+			Lupopsyrus_pygmaeus 
+			Mesacanthus_mitchelli 
+			Obtusacanthus_corroconis 
+			Parexus_recurvus 
+			Poracanthodes_menneri 
+			Promesacanthus_eppleri 
+			Ptomacanthus_anglicus 
+			Diplacanthus_striatus 
+			Tetanopsyrus_lindoei_breviacanthias 
+			Vernicomacanthus_waynensis 
+			Cladodoides_wildungensis 
+			Akmonistion_zangerli 
+			Cobelodus_braincase 
+			Cladoselache_kepleri_fyleri 
+			Chondrenchelys_problematica 
+			Helodus_simplex 
+			Debeerius_ellefseni 
+			Doliodus_problematicus 
+			Hamiltonichthys_mapesi 
+			Onychoselache_traquari 
+			Orthacanthus_sp 
+			Pucapampella_rodrigae 
+			Tamiobatis_vetustus 
+			Tristychius_arcuatus 
+			Dialipina_salgueiroensis 
+			Ligulalepis_toombsi 
+			Cheirolepis_canadensis 
+			Cheirolepis_trailli 
+			Howqualepis_rostridens 
+			Mimipiscis_toombsi 
+			Moythomasia_durgaringa 
+			Kentuckia_deani 
+			Osorioichthys_marginis 
+			Meemannia_eos 
+			Guiyu_oneiros 
+			Psarolepis_romeri 
+			Achoania_jarvikii 
+			Onychodus_jandemarrai 
+			Miguashaia_bureaui 
+			Styloichthys_changae 
+			Diabolepis_speratus 
+			Youngolepis_praecursor 
+			Powichthys_thorsteinssoni 
+			Porolepis_sp 
+			Glyptolepis_groenlandica 
+			Kenichthys_campbelli 
+			Osteolepis_macrolepidotus 
+			Gogonasus_andrewsae 
+			Eusthenopteron_foordi
+			;
+End;
+Begin trees;
+	Translate
+		   1 Hemicyclaspis_murchisoni,
+		   2 Cephalaspis_lyelli,
+		   3 Zenaspis_salweyi,
+		   4 Benneviaspis_holtedahli,
+		   5 Boreaspis_macrorhynchus,
+		   6 Norselaspis_glacialis,
+		   7 Nectaspis_areolate,
+		   8 Procephalaspis_oeselensis,
+		   9 Tremataspis_mammillata,
+		  10 Waengsjoeaspis_excellens,
+		  11 Escuminaspis_laticeps,
+		  12 Eugaleaspis_changi,
+		  13 Hanyangaspis_guodingshanensis,
+		  14 Polybranchiaspis_liaojiaoshanensis,
+		  15 Bannhuanaspis_vukhuci,
+		  16 Wenshanaspis_zhichangensis,
+		  17 Shuyu_zhejiangensis,
+		  18 Polybranchiaspid_sp_histological_samples,
+		  19 Yunnanolepis_sp,
+		  20 Parayunnanolepis_xitunensis,
+		  21 Microbrachius_dicki,
+		  22 Bothriolepis_sp_Gogo,
+		  23 Bothriolepis_canadensis,
+		  24 Pterichthyodes_milleri,
+		  25 Remigolepis_walkeri,
+		  26 Diandongpetalichthys_liaojiaoshanensis,
+		  27 Quasipetalichthys_haikouensis,
+		  28 Eurycaraspis_incilis,
+		  29 Lunaspis_broili,
+		  30 Macropetalichthys_rapheidolabis,
+		  31 Wuttagoonaspis_fletcheri,
+		  32 Cowralepis_mclachlani,
+		  33 Gavinaspis_convergens,
+		  34 Sigaspis_lepidophora,
+		  35 Kujdanowiaspis_podolica,
+		  36 Dicksonosteus_arcticus,
+		  37 Groenlandaspis_sp_Mt_Howitt,
+		  38 Buchanosteus_confertituberculatus,
+		  39 Parabuchanosteus_murrumbidgeensis,
+		  40 Holonema_westolli,
+		  41 Coccosteus_cuspidatus,
+		  42 Incisoscutum_ritchiei,
+		  43 Eastmanosteus_calliaspis,
+		  44 Compagopiscis_croucheri,
+		  45 Materpiscis_attenboroughi,
+		  46 Austroptyctodus_gardineri,
+		  47 Campbellodus_decipiens,
+		  48 Rhamphodopsis_threiplandi,
+		  49 Brindabellaspis_stensioi,
+		  50 Romundina_stellina,
+		  51 Jagorina_pandora,
+		  52 Gemuendina_stuertzi,
+		  53 Entelognathus_primordialis,
+		  54 Janusiscus_schultzei,
+		  55 Ramirosuarezia_boliviana,
+		  56 Acanthodes_bronni,
+		  57 Brachyacanthus_scutiger,
+		  58 Brochoadmones_milesi,
+		  59 Cassidiceps_vermiculatus,
+		  60 Cheiracanthus_sp,
+		  61 Climatius_reticulatus,
+		  62 Culmacanthus_stewarti,
+		  63 Euthacanthus_macnicoli,
+		  64 Gladiobranchus_probaton,
+		  65 Homalacanthus_concinnus,
+		  66 Ischnacanthus_gracilis,
+		  67 Kathemacanthus_rosulentus,
+		  68 Latviacanthus_ventspilsensis,
+		  69 Lupopsyrus_pygmaeus,
+		  70 Mesacanthus_mitchelli,
+		  71 Obtusacanthus_corroconis,
+		  72 Parexus_recurvus,
+		  73 Poracanthodes_menneri,
+		  74 Promesacanthus_eppleri,
+		  75 Ptomacanthus_anglicus,
+		  76 Diplacanthus_striatus,
+		  77 Tetanopsyrus_lindoei_breviacanthias,
+		  78 Vernicomacanthus_waynensis,
+		  79 Cladodoides_wildungensis,
+		  80 Akmonistion_zangerli,
+		  81 Cobelodus_braincase,
+		  82 Cladoselache_kepleri_fyleri,
+		  83 Chondrenchelys_problematica,
+		  84 Helodus_simplex,
+		  85 Debeerius_ellefseni,
+		  86 Doliodus_problematicus,
+		  87 Hamiltonichthys_mapesi,
+		  88 Onychoselache_traquari,
+		  89 Orthacanthus_sp,
+		  90 Pucapampella_rodrigae,
+		  91 Tamiobatis_vetustus,
+		  92 Tristychius_arcuatus,
+		  93 Dialipina_salgueiroensis,
+		  94 Ligulalepis_toombsi,
+		  95 Cheirolepis_canadensis,
+		  96 Cheirolepis_trailli,
+		  97 Howqualepis_rostridens,
+		  98 Mimipiscis_toombsi,
+		  99 Moythomasia_durgaringa,
+		 100 Kentuckia_deani,
+		 101 Osorioichthys_marginis,
+		 102 Meemannia_eos,
+		 103 Guiyu_oneiros,
+		 104 Psarolepis_romeri,
+		 105 Achoania_jarvikii,
+		 106 Onychodus_jandemarrai,
+		 107 Miguashaia_bureaui,
+		 108 Styloichthys_changae,
+		 109 Diabolepis_speratus,
+		 110 Youngolepis_praecursor,
+		 111 Powichthys_thorsteinssoni,
+		 112 Porolepis_sp,
+		 113 Glyptolepis_groenlandica,
+		 114 Kenichthys_campbelli,
+		 115 Osteolepis_macrolepidotus,
+		 116 Gogonasus_andrewsae,
+		 117 Eusthenopteron_foordi
+;
+
+tree STATE_0 = ((((((1[&rate=8.192288394556E-3]:6.853032168406E0,((3[&rate=1.61395594039E-3]:8.619279524414E0,10[&rate=5.540631522298E-3]:4.619279524414E0)[&rate=4.169022251278E-3]:2.249418773453E0,(((4[&rate=3.204610901622E-3]:0E0,6[&rate=2.222754578544E-2]:2E0)[&rate=3.621057196484E-3]:4.950728372236E0,5[&rate=6.690447469441E-3]:6.950728372236E0)[&rate=8.888316934380314E-4]:2.42931764778E0,11[&rate=1.065870640136E-3]:4.038004602002E1)[&rate=4.36082105489E-3]:2.48865227785E0)[&rate=1.083003331251E-2]:4.984333870539E0)[&rate=1.083003331251E-2]:2.43990832928E0,(2[&rate=1.092861523374E-3]:1.5E1,8[&rate=3.436516424356E-3]:0E0)[&rate=6.058532937346016E-4]:3.292940497687E0)[&rate=6.456102029365E-3]:1.330919375612E1,9[&rate=4.131981287956E-3]:1.660213425381E1)[&rate=9.036372782306E-3]:7.008978417963E-1,7[&rate=1.457052788848E-3]:3.33030320956E1)[&rate=6.942487418672E-3]:2.878952048318E1,((((((19[&rate=2.278527130963E-3]:0E0,(20[&rate=2.704954524004E-3]:7.862012864438E-1,((21[&rate=4.206488258883E-3]:7.795840321236E0,(22[&rate=1.317904162146E-3]:9.818982426744E-2,23[&rate=3.952802493898E-3]:3.098189824267E0)[&rate=2.511040303789E-3]:1.069765049697E1)[&rate=1.316706632599E-2]:2.644236805061E0,(24[&rate=4.244389955773E-3]:2.5200232334E0,25[&rate=9.811631063524275E-4]:2.55200232334E1)[&rate=2.324290242312E-3]:4.920053892897E0)[&rate=3.849783191924E-3]:1.634612416015E1)[&rate=5.966399936432E-3]:2.213798713556E0)[&rate=4.564690932849E-3]:1.73157777016E1,49[&rate=1.479745781565E-3]:3.13157777016E1)[&rate=1.363869479757E-2]:3.644176614603E0,50[&rate=3.52755601786E-3]:2.095995431621E1)[&rate=4.688358837337838E-4]:6.011650866612E0,((26[&rate=2.80513214313E-3]:5.45066811037E0,(((27[&rate=2.58282825457E-3]:6.804490153797E0,28[&rate=9.545176411063E-3]:6.804490153797E0)[&rate=1.658162698801E-3]:1.674880893016E1,(45[&rate=5.777055013903E-3]:8.488829367108E0,((46[&rate=4.693499914971E-3]:4.908521253363E0,47[&rate=4.440832145696E-3]:4.908521253363E0)[&rate=5.966399936432E-3]:6.669831115833E-1,48[&rate=5.902054170838E-3]:5.755043649458E-1)[&rate=1.058398587389E-2]:2.913325002162E0)[&rate=4.967711709094E-3]:1.706446971684E1)[&rate=4.059133595247E-3]:5.065554557763E0,(29[&rate=3.289829699593E-3]:3.086038529649E-1,30[&rate=1.636083325632E-3]:1.830860385296E1)[&rate=4.967711709094E-3]:5.310249788751E0)[&rate=1.479745781565E-3]:8.831814468653E0)[&rate=6.610484057473E-3]:9.920918914572E0,(((31[&rate=1.899624743631E-3]:2.247134251142E1,33[&rate=1.245699411338E-3]:3.47134251142E0)[&rate=5.428598112129E-3]:1.43030894763E0,32[&rate=2.881858559242E-3]:3.390165145905E1)[&rate=2.324290242312E-3]:9.836080974039E0,(((34[&rate=1.109244303504E-2]:1.306818059323E0,35[&rate=1.965575748123E-3]:2.306818059323E0)[&rate=2.704954524004E-3]:8.50329889692E0,36[&rate=1.636083325632E-3]:1.081011695624E1)[&rate=1.41129336999E-3]:3.974112556524E-1,(37[&rate=9.206685751465998E-4]:3.399473594769E1,((38[&rate=8.209874822053476E-4]:2.237759053612E0,(39[&rate=2.255766417243E-3]:5.964515216673E0,(41[&rate=1.833830032387E-3]:4.537808205445E0,((42[&rate=1.083003331251E-2]:8.139013995772E-1,43[&rate=1.636083325632E-3]:8.139013995772E-1)[&rate=1.245699411338E-3]:3.62849016114E0,44[&rate=2.143039438975E-3]:4.442391560717E0)[&rate=2.487339077614E-3]:5.095416644728E0)[&rate=1.61395594039E-3]:1.442670701123E1)[&rate=1.636083325632E-3]:3.273243836939E0)[&rate=3.466599440692E-3]:5.106582219272E0,40[&rate=1.010100033196E-3]:3.234434127288E1)[&rate=7.72366368862E-3]:3.65039467481E0)[&rate=1.235523850696E-2]:3.212792264201E0)[&rate=1.038307443896E-3]:4.530204221194E0)[&rate=5.777055013903E-3]:5.633854591852E0)[&rate=3.066812524007E-3]:9.600018157879E0)[&rate=3.918106247818E-3]:8.610037345461E0,(51[&rate=1.61395594039E-3]:3.586112328663E1,52[&rate=1.317904162146E-3]:2.86112328663E0)[&rate=2.165452424005E-3]:3.972051924165E1)[&rate=1.680200937177E-3]:1.528815046399E1,((53[&rate=7.843940571708258E-4]:5.439163742608E0,(54[&rate=9.811631063524275E-4]:2.620007757566E0,55[&rate=7.72366368862E-3]:2.562000775757E1)[&rate=6.942487418672E-3]:1.181915598504E1)[&rate=8.888316934380314E-4]:3.352159524766E1,((((((((((((56[&rate=8.888316934380314E-4]:8.510979979476E1,65[&rate=1.833830032387E-3]:3.109799794761E0)[&rate=2.534853390384E-3]:6.294505660441E0,60[&rate=9.811631063524275E-4]:1.404305455202E0)[&rate=2.511040303789E-3]:3.278544979422E1,(70[&rate=1.221106794607E-3]:2.525058336356E0,74[&rate=8.732523671532E-3]:2.525058336356E0)[&rate=3.918106247818E-3]:4.66469691307E0)[&rate=4.206488258883E-3]:1.387658931704E0,59[&rate=1.270013635281E-3]:8.577414181129E0)[&rate=7.950148684799E-3]:5.914843030718E0,64[&rate=1.235523850696E-2]:1.449225721185E1)[&rate=1.502329611859E-3]:2.958276876229E0,((62[&rate=7.843940571708258E-4]:1.550592191068E1,76[&rate=8.881279845774E-3]:1.250592191068E1)[&rate=3.952802493898E-3]:1.732666279091E1,77[&rate=9.545176411063E-3]:2.832584701591E0)[&rate=6.456102029365E-3]:1.461794938649E1)[&rate=4.321544788149E-3]:9.742873294976E-1,68[&rate=4.967711709094E-3]:2.942482141757E1)[&rate=1.921585306623E-3]:6.413979727585E0,(66[&rate=2.053946616266E-3]:1.072315698796E1,73[&rate=7.454487559796304E-4]:8.723156987958E0)[&rate=6.456102029365E-3]:1.41156441572E1)[&rate=9.545176411063E-3]:4.581903841197E0,(((58[&rate=3.684842469113E-3]:3.629525865369E0,((((79[&rate=7.454487559796304E-4]:2.785859648322E0,(89[&rate=1.245699411338E-3]:7.03650302521E1,91[&rate=2.143039438975E-3]:3.650302520974E-1)[&rate=4.522874200072E-3]:1.742082939622E1)[&rate=7.409466255964E-3]:3.42546244202E0,((((80[&rate=2.729782120894E-3]:2.274877054174E1,81[&rate=2.933823594155E-3]:2.474877054174E1)[&rate=4.095355063101E-3]:1.484361339619E1,(83[&rate=1.058398587389E-2]:5.224509598264E0,(84[&rate=7.214913362434E-3]:1.712098538768E1,85[&rate=1.235523850696E-2]:8.120985387678E0)[&rate=3.987866542525E-3]:1.510352421059E1)[&rate=4.440832145696E-3]:2.136787433967E1)[&rate=1.167525501669E-2]:2.836654363423E0,82[&rate=3.52755601786E-3]:7.429038301353E0)[&rate=1.4166957867E-2]:6.090766913437E0,((87[&rate=3.148879713186E-3]:3.54521452308E1,88[&rate=5.267522524888E-3]:1.452145230802E0)[&rate=3.816140005106E-3]:1.824743150902E0,92[&rate=1.083003331251E-2]:3.276888381704E0)[&rate=6.16740627004E-3]:3.424291683309E1)[&rate=3.717190389529E-3]:7.691516875553E0)[&rate=5.540631522298E-3]:1.772258289619E1,86[&rate=2.416874065409E-3]:3.933904986533E0)[&rate=5.114123431161E-3]:1.745131978096E1,90[&rate=2.210470284507E-3]:2.838522476749E1)[&rate=6.032039621506E-3]:2.244301097875E0)[&rate=7.950148684799E-3]:1.009612087403E1,67[&rate=5.716313016088E-3]:1.37256467394E1)[&rate=1.723192016762E-2]:2.651695909727E0,(69[&rate=8.069137489883E-3]:7.072262989035E0,71[&rate=3.318687868573E-3]:7.072262989035E0)[&rate=7.310805026539E-3]:9.305079660093E0)[&rate=2.031795441534E-3]:1.304336233723E1)[&rate=4.693499914971E-3]:7.588011745287E-1,(57[&rate=4.206488258883E-3]:2.590167995828E1,(61[&rate=8.209874822053476E-4]:2.029304313233E1,((72[&rate=4.282738341791E-3]:5.964346760804E0,78[&rate=3.621057196484E-3]:5.964346760804E0)[&rate=5.114123431161E-3]:2.020221940801E0,75[&rate=4.564690932849E-3]:7.984568701605E0)[&rate=5.540631522298E-3]:1.230847443072E1)[&rate=1.434239363654E-3]:5.608636825953E0)[&rate=3.204610901622E-3]:4.277826202603E0)[&rate=2.680265613627E-3]:3.583096753847E-1,63[&rate=2.255766417243E-3]:3.053781583627E1)[&rate=1.545460994049E-2]:1.327859852728E1,((((93[&rate=6.456102029365E-3]:1.1E1,102[&rate=5.453820367858431E-4]:0E0)[&rate=3.952802493898E-3]:7.422729424025E0,(94[&rate=1.457052788848E-3]:3.815156531407E0,((95[&rate=8.888316934380314E-4]:1.228554693799E1,96[&rate=6.16740627004E-3]:4.285546937994E0)[&rate=6.690447469441E-3]:6.841276815042E0,((97[&rate=4.693499914971E-3]:6.445007649658E0,100[&rate=4.688358837337838E-4]:4.444500764966E1)[&rate=2.463746457909E-3]:1.302399641312E-1,((98[&rate=5.540631522298E-3]:9.553841138958E-1,101[&rate=1.145362847008E-3]:1.69553841139E1)[&rate=2.165452424005E-3]:7.898790618305E-1,99[&rate=7.72366368862E-3]:1.745263175726E0)[&rate=1.965575748123E-3]:6.829984438063E0)[&rate=8.192288394556E-3]:7.551576139246E0)[&rate=2.000897629604E-2]:5.68833277837E0)[&rate=1.341523251116E-3]:1.460757289262E1)[&rate=2.009685770297E-3]:1.891966152649E1,((106[&rate=2.393587829497E-3]:2.335613378571E1,107[&rate=5.064574628857E-3]:2.635613378571E1)[&rate=2.143039438975E-3]:2.197503350774E1,(108[&rate=1.341523251116E-3]:1.195558894329E1,(((109[&rate=2.000897629604E-2]:4.138751970875E0,110[&rate=2.933823594155E-3]:4.138751970875E0)[&rate=7.214913362434E-3]:4.027520121437E0,111[&rate=3.013069485077E-3]:9.166272092312E0)[&rate=2.779867378327E-3]:1.157998483546E0,((112[&rate=3.377112394643E-3]:0E0,113[&rate=3.952802493898E-3]:2.3E1)[&rate=5.428598112129E-3]:9.777479011378E0,(114[&rate=1.52481477691E-3]:4.039594679204E0,(115[&rate=2.779867378327E-3]:6.17592411444E-1,(116[&rate=4.782329518228E-3]:3.338033033584E0,117[&rate=8.319879887669E-3]:6.338033033584E0)[&rate=3.621057196484E-3]:2.27955937786E0)[&rate=1.680200937177E-3]:1.142200226776E1)[&rate=1.294074398621E-3]:2.073788433217E1)[&rate=7.615722834478E-3]:5.467915644798E-1)[&rate=5.838954353205E-3]:2.631318367434E0)[&rate=2.000897629604E-2]:4.375578350164E0)[&rate=1.316706632599E-2]:1.001122365706E1)[&rate=4.782329518228E-3]:9.125968433149E0,(103[&rate=2.907757134061E-3]:1.062789111796E1,(104[&rate=3.496944022697E-3]:2.892349850902E0,105[&rate=5.164447921549E-3]:6.892349850902E0)[&rate=3.782831852402E-3]:1.573554126706E1)[&rate=1.61395594039E-3]:1.28404682657E1)[&rate=3.481650756323E-2]:1.134805497989E1)[&rate=1.167525501669E-2]:4.144344626711E0)[&rate=7.615722834478E-3]:2.909034002003E0)[&rate=1.058398587389E-2]:7.222759586517E0)[&rate=8.209874822053476E-4]:1.968248908813E1,((((12[&rate=6.237243434443E-3]:2.00426311763E1,(14[&rate=8.556885893933687E-4]:3.157109488866E0,(15[&rate=1.41129336999E-3]:7.028490434299E0,18[&rate=4.967711709094E-3]:3.028490434299E0)[&rate=7.511050264656E-3]:1.286190545667E-1)[&rate=1.636083325632E-3]:1.388552168744E1)[&rate=1.145362847008E-3]:4.87506476048E0,17[&rate=6.456102029365E-3]:3.917695936782E0)[&rate=1.943567590495E-3]:1.368725139286E1,13[&rate=1.13733353155E-2]:1.460494732964E1)[&rate=7.03491199778884E-4]:1.488669298183E1,16[&rate=2.301367319444E-3]:5.649164031147E1)[&rate=3.749851116039E-3]:2.728340135544E1)[&rate=1E0]:0E0;
+End;
